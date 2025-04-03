@@ -1,0 +1,116 @@
+(footprint "WE-TI_1014"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.635 0)
+		(layer "F.SilkS")
+		(uuid "34d913d4-96ce-4e10-893f-8b8d3068c155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-TI_1014"
+		(at 0 6.365 0)
+		(layer "F.Fab")
+		(uuid "71c0cc1c-2a90-406f-b001-5eadfd75b930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b972879-3125-491a-bfc2-314843c2d2bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a129f7a-795d-4819-9460-d6c48be453ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -6.5 0)
+		(end -6.3 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb000818-87b5-4ae9-81df-402af49753c6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.35 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c049b6ff-a96a-45bd-a36e-5308d59c8ef9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.6 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8cb3cfa8-847b-49c8-98f8-b41e1da2738b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8272cb82-c09b-4d2a-8aa6-510a26950593")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "227bce12-b195-4f45-8ab5-423a7799b048")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7abe90e4-22bc-4a64-8dd7-92109f56c736")
+	)
+	(embedded_fonts no)
+)

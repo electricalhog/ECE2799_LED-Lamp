@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f2203a7-34cf-46ec-8746-78ff5e4d1e8b")
+	(paper "A4")
+	(title_block
+		(title "Replacable LED COB Lamp")
+		(date "2025-03-24")
+		(rev "0")
+		(company "WPI ECE2799 D25")
+		(comment 1 "Raymond, Daniel")
+		(comment 2 "Hogan, Rye")
+		(comment 3 "Bryan, Tahje")
+	)
+	(lib_symbols)
+	(hierarchical_label "LED_B"
+		(shape input)
+		(at 76.2 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db428c5c-299c-417e-a51f-956d1cdcd98e")
+	)
+	(hierarchical_label "LED_A"
+		(shape input)
+		(at 76.2 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f152ba44-2f12-4ff5-ac21-79c84083dd40")
+	)
+)

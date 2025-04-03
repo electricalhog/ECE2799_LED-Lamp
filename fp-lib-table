@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RAPC322X")(type "KiCad")(uri "${KIPRJMOD}/RAPC322X")(options "")(descr ""))
+  (lib (name "750817251")(type "KiCad")(uri "${KIPRJMOD}/750817251")(options "")(descr ""))
+  (lib (name "LT3799MSE_PBF")(type "KiCad")(uri "${KIPRJMOD}/LT3799EMSE_PBF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "CD-DF4XXSL")(type "KiCad")(uri "${KIPRJMOD}/LIB_CD-DF4XXSL/CD-DF4XXSL.pretty")(options "")(descr ""))
+  (lib (name "7447480102")(type "KiCad")(uri "${KIPRJMOD}/7447480102")(options "")(descr ""))
+  (lib (name "GAN039-650NTB")(type "KiCad")(uri "${KIPRJMOD}/GAN039-650NTB/GAN039-650NTB.pretty")(options "")(descr ""))
+  (lib (name "MP9989GV_Z")(type "KiCad")(uri "${KIPRJMOD}/MP9989GV_Z/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "B82731H2701A030")(type "KiCad")(uri "${KIPRJMOD}/B82731H2701A030/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LMR36006")(type "KiCad")(uri "${KIPRJMOD}/LMR36006")(options "")(descr ""))
+  (lib (name "FDMQ8205A")(type "KiCad")(uri "${KIPRJMOD}/FDMQ8205A")(options "")(descr ""))
+)
