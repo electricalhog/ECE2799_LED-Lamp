@@ -1994,6 +1994,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "382bcf5e-e36f-4278-b8ad-d6cfe63e9345")
 		)
@@ -2060,6 +2068,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2131,6 +2147,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "814d140b-d6b2-461c-9884-4327486e5bda")
 		)
@@ -2198,6 +2222,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2269,6 +2301,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2526,6 +2566,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "665d4cc6-b333-475d-9cc1-1585831b29d8")
 		)
@@ -2638,6 +2686,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca682e93-2443-4f6a-9588-622ea3baa8c2")
 		)
@@ -2706,6 +2762,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 127 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2778,6 +2842,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 127 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f0140b8-edcd-407a-863b-2d6dd7b1ad50")
 		)
@@ -2846,6 +2918,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2917,6 +2997,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff360a21-1f1e-487f-bbf7-5d4b7c269925")
 		)
@@ -2983,6 +3071,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3119,6 +3215,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 222.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a72f3237-10c5-4734-bbf5-9d90fa89db4e")
 		)
@@ -3187,6 +3291,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3265,6 +3377,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3eb7d091-3271-4630-b2c3-5d01e68a669b")
 		)
@@ -3338,6 +3458,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3424,6 +3552,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

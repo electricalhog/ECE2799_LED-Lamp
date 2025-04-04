@@ -5067,6 +5067,14 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba3a8d0a-71f1-4212-9d2c-306902ee8a82")
 		)
@@ -5358,6 +5366,14 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 247.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19b83f3c-48a1-4fb5-b86e-c16b69efefaf")
 		)
@@ -5426,6 +5442,14 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1819cccb-5f5b-4d63-af76-591d4527d594")
 		)
@@ -5487,6 +5511,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.185 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 83.185 182.245 0)
 			(effects
 				(font
@@ -5621,6 +5653,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 255.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5824,6 +5864,14 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae9e9b22-d461-4839-a324-3288391acd31")
 		)
@@ -6014,6 +6062,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -6295,6 +6351,14 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88b90fb7-8987-47d4-9417-60f10dfe25ab")
 		)
@@ -6429,6 +6493,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "1efac634-cd58-49a7-b9b6-fe4ec17826ab")
 		)
@@ -6493,6 +6565,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 163.83 67.31 0)
 			(effects
 				(font
@@ -6628,6 +6708,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -6966,6 +7054,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 102.87 38.1 0)
 			(effects
 				(font

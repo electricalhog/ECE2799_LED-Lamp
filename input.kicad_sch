@@ -515,6 +515,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23b91f17-3bf6-4a34-8e14-864bd00411ec")
 		)
@@ -581,6 +589,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
