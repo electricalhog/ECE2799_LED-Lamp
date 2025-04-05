@@ -11,4 +11,5 @@
   (lib (name "LMR36006")(type "KiCad")(uri "${KIPRJMOD}/LMR36006")(options "")(descr ""))
   (lib (name "FDMQ8205A")(type "KiCad")(uri "${KIPRJMOD}/FDMQ8205A")(options "")(descr ""))
   (lib (name "PG-TSON-8-8")(type "KiCad")(uri "${KIPRJMOD}/IGLR65R200D2/PG-TSON-8-8.pretty")(options "")(descr ""))
+  (lib (name "TRILL")(type "KiCad")(uri "${KIPRJMOD}/trill-KiCad-libs/footprints/TRILL.pretty")(options "")(descr ""))
 )

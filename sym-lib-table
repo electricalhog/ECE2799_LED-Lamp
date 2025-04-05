@@ -10,4 +10,5 @@
   (lib (name "2024-04-12_02-42-06")(type "KiCad")(uri "${KIPRJMOD}/LMR36006/2024-04-12_02-42-06.kicad_sym")(options "")(descr ""))
   (lib (name "FDMQ8205A")(type "KiCad")(uri "${KIPRJMOD}/FDMQ8205A/FDMQ8205A.kicad_sym")(options "")(descr ""))
   (lib (name "2025-04-05_10-38-24")(type "KiCad")(uri "${KIPRJMOD}/IGLR65R200D2/2025-04-05_10-38-24.kicad_sym")(options "")(descr ""))
+  (lib (name "TRILL")(type "KiCad")(uri "${KIPRJMOD}/trill-KiCad-libs/symbols/TRILL.kicad_sym")(options "")(descr ""))
 )
