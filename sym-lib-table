@@ -9,4 +9,5 @@
   (lib (name "2025-03-24_21-45-16")(type "KiCad")(uri "${KIPRJMOD}/B82731H2701A030/KiCADv6/2025-03-24_21-45-16.kicad_sym")(options "")(descr ""))
   (lib (name "2024-04-12_02-42-06")(type "KiCad")(uri "${KIPRJMOD}/LMR36006/2024-04-12_02-42-06.kicad_sym")(options "")(descr ""))
   (lib (name "FDMQ8205A")(type "KiCad")(uri "${KIPRJMOD}/FDMQ8205A/FDMQ8205A.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-05_10-38-24")(type "KiCad")(uri "${KIPRJMOD}/IGLR65R200D2/2025-04-05_10-38-24.kicad_sym")(options "")(descr ""))
 )

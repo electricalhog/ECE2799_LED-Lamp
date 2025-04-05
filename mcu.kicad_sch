@@ -1926,7 +1926,7 @@
 		(fields_autoplaced yes)
 		(uuid "1028d1bc-6f63-4d0b-a9fc-8a5c098c0c96")
 		(property "Reference" "C17"
-			(at 166.37 27.9399 0)
+			(at 166.37 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,8 +1934,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 166.37 30.4799 0)
+		(property "Value" "100n"
+			(at 166.37 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,11 +1971,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 162.56 29.21 0)
+			(at 166.37 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2247,7 +2248,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aa52ead-a565-4cc7-9ef7-5e2cf580e233")
 		(property "Reference" "C12"
-			(at 106.68 27.9399 0)
+			(at 106.68 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,8 +2256,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 106.68 30.4799 0)
+		(property "Value" "100n"
+			(at 106.68 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,11 +2293,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 102.87 29.21 0)
+			(at 106.68 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2325,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "7339d6ff-6687-440d-aa58-a863dffb3c8f")
 		(property "Reference" "C15"
-			(at 146.05 27.9399 0)
+			(at 146.05 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,8 +2335,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 146.05 30.4799 0)
+		(property "Value" "100n"
+			(at 146.05 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,11 +2372,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 142.24 29.21 0)
+			(at 146.05 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2403,7 +2406,7 @@
 		(fields_autoplaced yes)
 		(uuid "75893725-bae8-4f14-8e31-5d874c9f1f56")
 		(property "Reference" "C5"
-			(at 116.84 27.9399 0)
+			(at 116.84 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,8 +2414,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 116.84 30.4799 0)
+		(property "Value" "1u"
+			(at 116.84 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,11 +2451,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 113.03 29.21 0)
+			(at 116.84 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2547,7 +2551,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a25e8c8-c4f9-4a04-a70b-fd56f51ec6eb")
 		(property "Reference" "C16"
-			(at 156.21 27.9399 0)
+			(at 156.21 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,8 +2559,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 156.21 30.4799 0)
+		(property "Value" "100n"
+			(at 156.21 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,11 +2596,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 152.4 29.21 0)
+			(at 156.21 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2691,7 +2696,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0944188-9040-47f2-addc-26703967ee82")
 		(property "Reference" "C14"
-			(at 96.52 27.9399 0)
+			(at 96.52 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,8 +2704,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 96.52 30.4799 0)
+		(property "Value" "100n"
+			(at 96.52 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,11 +2741,12 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 92.71 29.21 0)
+			(at 96.52 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
