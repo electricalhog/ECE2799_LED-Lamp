@@ -12,4 +12,5 @@
   (lib (name "FDMQ8205A")(type "KiCad")(uri "${KIPRJMOD}/FDMQ8205A")(options "")(descr ""))
   (lib (name "PG-TSON-8-8")(type "KiCad")(uri "${KIPRJMOD}/IGLR65R200D2/PG-TSON-8-8.pretty")(options "")(descr ""))
   (lib (name "TRILL")(type "KiCad")(uri "${KIPRJMOD}/trill-KiCad-libs/footprints/TRILL.pretty")(options "")(descr ""))
+  (lib (name "IEC_60320_C6")(type "KiCad")(uri "${KIPRJMOD}/e_0100.3502a003/IEC_60320_C6.pretty")(options "")(descr ""))
 )
