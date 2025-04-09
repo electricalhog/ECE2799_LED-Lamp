@@ -550,7 +550,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ECE2799_LED-Lamp.kicad_pro",
+    "filename": "Touch.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -585,35 +585,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/AC+": [
-        "HV"
-      ],
-      "/AC-": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/AC_EMI+": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/AC_EMI-": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/AC_Filter+": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/DRAIN": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/FREEWHEEL": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/PRIMARY_TIE": [
-        "HV"
-      ],
-      "/LED_Driver_AC-DC/VHV": [
-        "HV"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -795,26 +767,6 @@
     [
       "c27c9155-8dca-4b9f-ac37-1fd4cce6afa0",
       "Root"
-    ],
-    [
-      "a91a180e-9224-4dd9-bb32-f5cf5fec0591",
-      "LED_Driver_AC-DC"
-    ],
-    [
-      "688fd4a0-1694-4bb5-84fd-8851441ce74e",
-      "Polarity_Switch"
-    ],
-    [
-      "76942dc6-e049-4955-b889-5040feac9504",
-      "LED_Holder"
-    ],
-    [
-      "fd71a373-9cb2-456b-bc52-5872eac88a20",
-      "AC_Input"
-    ],
-    [
-      "cfc819d8-440f-4968-99e9-123ad34ea029",
-      "Microcontroller"
     ],
     [
       "fece9bde-a45f-4b8f-b0d2-dadb1b5fe1f1",

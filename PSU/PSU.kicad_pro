@@ -550,7 +550,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ECE2799_LED-Lamp.kicad_pro",
+    "filename": "PSU.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -815,10 +815,6 @@
     [
       "cfc819d8-440f-4968-99e9-123ad34ea029",
       "Microcontroller"
-    ],
-    [
-      "fece9bde-a45f-4b8f-b0d2-dadb1b5fe1f1",
-      "Capacitive_Touch_Sensor"
     ]
   ],
   "text_variables": {}

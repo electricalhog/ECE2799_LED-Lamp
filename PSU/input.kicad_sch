@@ -1,0 +1,362 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97cd5fc9-077f-4ab7-aa4f-c38787161f32")
+	(paper "A4")
+	(title_block
+		(title "Replacable LED COB Lamp")
+		(date "2025-04-08")
+		(rev "0")
+		(company "WPI ECE2799 D25")
+		(comment 1 "Raymond, Daniel")
+		(comment 2 "Hogan, Rye")
+		(comment 3 "Bryan, Tahje")
+	)
+	(lib_symbols
+		(symbol "Connector:IEC_60320_C6_Receptacle"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.842 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IEC_60320_C6_Receptacle"
+				(at 0.508 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.8538 -0.0376 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.8538 -0.0376 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "C6 plug, 2,5A max"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IEC 60320 C6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C*6*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IEC_60320_C6_Receptacle_0_1"
+				(arc
+					(start -3.1238 0.5974)
+					(mid -3.7139 4.03)
+					(end -0.5838 2.5024)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.5838 -2.5776)
+					(mid -3.7139 -4.1052)
+					(end -3.1238 -0.6726)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.1238 -0.6726)
+					(mid -3.2336 -0.0376)
+					(end -3.1238 0.5974)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.5838 2.5024)
+					(mid 2.5145 -0.0376)
+					(end -0.5838 -2.5776)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IEC_60320_C6_Receptacle_1_1"
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy 6.35 7.62) (xy 6.35 -7.62) (xy -6.35 -7.62) (xy -6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.4888 2.5024)
+					(radius 0.898)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2.4888 -2.5776)
+					(radius 0.898)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.0758 -0.0376)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "PE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "AC+"
+		(shape output)
+		(at 162.56 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b90f3f8-648f-4b7a-936d-83ab3c774e21")
+		(property "Netclass" "HV"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "Chassis_Shield"
+		(shape passive)
+		(at 162.56 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5836ccfe-6198-4b9f-8edd-c29b4c1e2bfa")
+	)
+	(hierarchical_label "AC-"
+		(shape output)
+		(at 162.56 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eef1023-edbf-4364-8fd4-668740f5dadc")
+		(property "Netclass" "HV"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:IEC_60320_C6_Receptacle")
+		(at 153.67 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e5e21c-5a3c-4a43-8dd4-512f4c19a2d8")
+		(property "Reference" "J1"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IEC_60320_C6_Receptacle"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IEC_60320_C6:IEC_60320_C6"
+			(at 151.8162 101.6376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.8162 101.6376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C6 plug, 2,5A max"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b886268-dd64-49d9-83ef-4e43b4f87c3d")
+		)
+		(pin "2"
+			(uuid "f65ec3f9-d584-444f-9520-835f7e210d51")
+		)
+		(pin "3"
+			(uuid "2bb9ea25-901b-4ed7-b699-f5d50067c105")
+		)
+		(instances
+			(project ""
+				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/fd71a373-9cb2-456b-bc52-5872eac88a20"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
