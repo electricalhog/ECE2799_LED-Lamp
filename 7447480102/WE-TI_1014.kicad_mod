@@ -51,8 +51,8 @@
 	)
 	(attr through_hole)
 	(fp_circle
-		(center -6.5 0)
-		(end -6.3 0)
+		(center -4.3 0)
+		(end -4.1 0)
 		(stroke
 			(width 0.4)
 			(type solid)
@@ -113,4 +113,15 @@
 		(uuid "7abe90e4-22bc-4a64-8dd7-92109f56c736")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/7447480102/WE-TI-1014_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

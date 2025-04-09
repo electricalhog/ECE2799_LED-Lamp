@@ -170,7 +170,7 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3.6 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "5148c3fe-f72f-4d0c-90ee-5c29860e69a3")
 		(effects
 			(font

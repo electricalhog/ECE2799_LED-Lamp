@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Replacable LED COB Lamp")
-		(date "2025-03-24")
+		(date "2025-04-08")
 		(rev "0")
 		(company "WPI ECE2799 D25")
 		(comment 1 "Raymond, Daniel")

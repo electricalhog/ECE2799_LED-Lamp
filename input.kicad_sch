@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Replacable LED COB Lamp")
-		(date "2025-03-24")
+		(date "2025-04-08")
 		(rev "0")
 		(company "WPI ECE2799 D25")
 		(comment 1 "Raymond, Daniel")
@@ -235,7 +235,7 @@
 	)
 	(hierarchical_label "AC+"
 		(shape output)
-		(at 161.29 71.12 0)
+		(at 162.56 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -245,7 +245,7 @@
 		)
 		(uuid "3b90f3f8-648f-4b7a-936d-83ab3c774e21")
 		(property "Netclass" "HV"
-			(at 161.29 72.39 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +257,7 @@
 	)
 	(hierarchical_label "Chassis_Shield"
 		(shape passive)
-		(at 161.29 76.2 0)
+		(at 162.56 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -268,7 +268,7 @@
 	)
 	(hierarchical_label "AC-"
 		(shape output)
-		(at 161.29 81.28 0)
+		(at 162.56 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -278,7 +278,7 @@
 		)
 		(uuid "7eef1023-edbf-4364-8fd4-668740f5dadc")
 		(property "Netclass" "HV"
-			(at 161.29 82.55 0)
+			(at 162.56 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +290,7 @@
 	)
 	(symbol
 		(lib_id "Connector:IEC_60320_C6_Receptacle")
-		(at 152.4 76.2 0)
+		(at 153.67 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -299,7 +299,7 @@
 		(fields_autoplaced yes)
 		(uuid "24e5e21c-5a3c-4a43-8dd4-512f4c19a2d8")
 		(property "Reference" "J1"
-			(at 152.4 63.5 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +307,7 @@
 			)
 		)
 		(property "Value" "IEC_60320_C6_Receptacle"
-			(at 152.4 66.04 0)
+			(at 153.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +315,7 @@
 			)
 		)
 		(property "Footprint" "IEC_60320_C6:IEC_60320_C6"
-			(at 150.5462 76.2376 0)
+			(at 151.8162 101.6376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,7 +324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.5462 76.2376 0)
+			(at 151.8162 101.6376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +333,7 @@
 			)
 		)
 		(property "Description" "C6 plug, 2,5A max"
-			(at 152.4 76.2 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

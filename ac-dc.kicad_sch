@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Replacable LED COB Lamp")
-		(date "2025-03-24")
+		(date "2025-04-08")
 		(rev "0")
 		(company "WPI ECE2799 D25")
 		(comment 1 "Raymond, Daniel")
@@ -1767,22 +1767,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T"
-				(at 0 21.59 0)
+			(property "Reference" "T1"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Value" "750817251"
-				(at 0 -22.86 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Footprint" "750817251:WE-OLLT_ER28_14_L31W31H25_PAD1.6"
@@ -1795,7 +1793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750817251.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1811,6 +1809,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "750817251_0_0"
@@ -2263,15 +2269,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-					)
-				)
-				(text "Terminals 2+3 and 9+10 must be tied as solder bridging is allowed."
-					(at 0 -25.4 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify bottom)
 					)
 				)
 				(text "N3"
@@ -4618,12 +4615,6 @@
 		(uuid "0c3b2bed-2f39-4fd2-991a-2952cd69c552")
 	)
 	(junction
-		(at 158.75 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cbcd8bc-6cae-4b6a-abb1-f6a93b4a40c3")
-	)
-	(junction
 		(at 228.6 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4690,6 +4681,12 @@
 		(uuid "365b8b6e-afdc-4e35-b678-0a1c7ece9e94")
 	)
 	(junction
+		(at 152.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3833cea6-1926-4475-a2bf-63eaaaa12ed2")
+	)
+	(junction
 		(at 176.53 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4706,6 +4703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aaca8e0-4e31-4299-a9cf-b3fd5549e1f1")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541f72f4-e565-425c-85a1-253441fec50c")
 	)
 	(junction
 		(at 243.84 127)
@@ -4804,12 +4807,6 @@
 		(uuid "af63cc84-b51f-4851-8244-fb212f5f7900")
 	)
 	(junction
-		(at 171.45 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af880196-a6b4-4e1d-9060-7a77f43735c9")
-	)
-	(junction
 		(at 238.76 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4870,12 +4867,6 @@
 		(uuid "c9b07586-f827-49ef-88f1-90ef113b9383")
 	)
 	(junction
-		(at 171.45 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1b6fed6-388d-46bb-8011-2cfd3ef2b5cd")
-	)
-	(junction
 		(at 158.75 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4892,12 +4883,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda21bba-d83f-4d36-8211-ded4f1c89bea")
-	)
-	(junction
-		(at 171.45 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0db9ebc-fa48-4be9-965e-d37b9f6233ba")
 	)
 	(junction
 		(at 96.52 50.8)
@@ -4935,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 171.45 58.42)
+			(xy 152.4 58.42) (xy 158.75 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4982,16 +4967,6 @@
 			(type default)
 		)
 		(uuid "0cdefdd5-dc94-44ae-9b1c-7849d6f0eb5e")
-	)
-	(wire
-		(pts
-			(xy 171.45 50.8) (xy 177.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d09ed1c-6293-43ab-b31d-fa1579e431ba")
 	)
 	(wire
 		(pts
@@ -5165,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 58.42) (xy 171.45 68.58)
+			(xy 152.4 58.42) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5535,7 +5510,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 171.45 76.2)
+			(xy 152.4 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5575,7 +5550,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 58.42) (xy 158.75 58.42)
+			(xy 146.05 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5775,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 50.8) (xy 171.45 50.8)
+			(xy 158.75 50.8) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6002,16 +5977,6 @@
 			(type default)
 		)
 		(uuid "cd2770d7-39c6-4289-aa45-1f25c06dc940")
-	)
-	(wire
-		(pts
-			(xy 171.45 76.2) (xy 177.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb61ded-1006-4ca6-a1a3-515409efe04e")
 	)
 	(wire
 		(pts
@@ -6421,13 +6386,13 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 			)
 			(justify left bottom)
 		)
 		(uuid "6116c865-6376-471f-be96-6db0d387db13")
 		(property "Netclass" "HV"
-			(at 179.07 66.04 90)
+			(at 178.7525 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6483,7 @@
 		(uuid "a2898cba-b6ef-42e4-9f52-f52b952e9a9a")
 	)
 	(label "FREEWHEEL"
-		(at 171.45 68.58 90)
+		(at 152.4 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6528,7 +6493,7 @@
 		)
 		(uuid "a85fa2b4-18f1-42e7-ad28-7df7da8934ae")
 		(property "Netclass" "HV"
-			(at 172.72 68.58 90)
+			(at 153.67 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,6 +7035,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7435,7 +7401,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3260d6d6-bf40-4b63-95b5-5621b82bf3ce")
 		(property "Reference" "C10"
 			(at 222.25 78.7399 0)
@@ -7488,6 +7453,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7722,6 +7688,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7800,6 +7767,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8955,84 +8923,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 54.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d03239f-27c7-4451-980b-31081deab620")
-		(property "Reference" "C13"
-			(at 167.64 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5n"
-			(at 167.64 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 170.4848 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75b215a0-80da-4136-8537-af9f6c9e7bfd")
-		)
-		(pin "2"
-			(uuid "f3291d73-b61e-4976-98e2-0570a47c5918")
-		)
-		(instances
-			(project ""
-				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/a91a180e-9224-4dd9-bb32-f5cf5fec0591"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 154.94 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10143,6 +10033,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10550,6 +10441,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11826,7 +11718,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 171.45 72.39 90)
+		(at 152.4 72.39 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11835,7 +11727,7 @@
 		(dnp no)
 		(uuid "eb189d82-9020-4499-b4df-956062223146")
 		(property "Reference" "D4"
-			(at 168.91 71.1199 90)
+			(at 149.86 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11736,7 @@
 			)
 		)
 		(property "Value" "CMR1U-10M TR13 PBFREE"
-			(at 168.91 73.6599 90)
+			(at 149.86 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11745,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +11763,7 @@
 			)
 		)
 		(property "Description" "DIODE STANDARD 1000V 1A SMA"
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11772,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11781,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11790,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 171.45 72.39 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12124,6 +12016,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
