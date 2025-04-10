@@ -1,0 +1,47 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "471001264142" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at 0.07 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "471001264142" (id 1) (at 0.0 -3.81 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "471001264142:471001264142_0_75-1_25_" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "471001264142_0_0"
+      (circle (center -1.27 0.0) (radius 0.635)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 1.27 0.0) (radius 0.635)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.36 0.64) (xy -1.36 1.03)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -1.905 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 1.905 0.0)) (stroke (width 0.254))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

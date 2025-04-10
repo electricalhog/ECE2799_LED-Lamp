@@ -14,6 +14,279 @@
 		(comment 3 "Bryan, Tahje")
 	)
 	(lib_symbols
+		(symbol "471001264142:471001264142"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0.07 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "471001264142"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "471001264142:471001264142_0_75-1_25_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "471001264142_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.36 0.64) (xy -1.36 1.03)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:IEC_60320_C6_Receptacle"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -233,9 +506,82 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 166.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f132fb96-077d-4ed0-b57a-5386eab6b265")
+	)
+	(junction
+		(at 176.53 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb613daa-73cb-4f8a-9867-77da7420b008")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf4b15d-a5bc-4f79-b8ab-8450a3956210")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7636c3e2-277c-44aa-83e1-7226fa665df5")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fd6989-fa25-4c1c-8c80-c2a06d4e280a")
+	)
+	(wire
+		(pts
+			(xy 176.53 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a201e874-3945-4046-9202-54c913fc216f")
+	)
+	(label "AC+_in"
+		(at 162.56 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c8f3526-c383-438d-9a76-994e298dff5e")
+		(property "Netclass" "HV"
+			(at 162.56 97.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "AC+"
 		(shape output)
-		(at 162.56 96.52 0)
+		(at 180.34 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -245,7 +591,7 @@
 		)
 		(uuid "3b90f3f8-648f-4b7a-936d-83ab3c774e21")
 		(property "Netclass" "HV"
-			(at 162.56 97.79 0)
+			(at 180.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,6 +631,81 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08375ebf-2768-480e-afb9-10a7fdb6fe75")
+		(property "Reference" "J8"
+			(at 177.8 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade Terminal"
+			(at 177.8 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1212:1212"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=595"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vertical Board Mount Spade Male 4.8x0.81"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "36-1212-ND"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5511cd7-041b-49d6-a5dc-3338834e1885")
+		)
+		(instances
+			(project "ECE2799_LED-Lamp"
+				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/fd71a373-9cb2-456b-bc52-5872eac88a20"
+					(reference "J8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -363,6 +784,159 @@
 			(project ""
 				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/fd71a373-9cb2-456b-bc52-5872eac88a20"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "471001264142:471001264142")
+		(at 171.45 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9c0652cd-865a-4f9c-82d3-ba65f1287ba4")
+		(property "Reference" "S2"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "471001264142"
+			(at 171.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "471001264142:471001264142_0_75-1_25_"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "732-13673-ND"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "620095e4-ed74-4135-be31-1e2087d49c41")
+		)
+		(pin "1"
+			(uuid "00ed163c-3ed9-40db-95d4-e005f8a02a0e")
+		)
+		(instances
+			(project ""
+				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/fd71a373-9cb2-456b-bc52-5872eac88a20"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 166.37 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef2971fc-c178-40df-9e85-12a33c2bec20")
+		(property "Reference" "J7"
+			(at 165.1 81.9149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade Terminal"
+			(at 165.1 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1212:1212"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=595"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vertical Board Mount Spade Male 4.8x0.81"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "36-1212-ND"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9f80c28-734d-4811-8a4d-8fcec8a6231f")
+		)
+		(instances
+			(project ""
+				(path "/c27c9155-8dca-4b9f-ac37-1fd4cce6afa0/fd71a373-9cb2-456b-bc52-5872eac88a20"
+					(reference "J7")
 					(unit 1)
 				)
 			)

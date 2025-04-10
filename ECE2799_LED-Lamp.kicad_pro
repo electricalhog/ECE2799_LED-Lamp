@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|190275000|108227305|92f06e53-051e-4212-bbf1-e5b41b6119d2|e938d436-be95-416c-867f-5cf14c93b0b4",
-          "Barely..."
-        ],
-        [
-          "courtyards_overlap|190299145|90525000|5655de54-575b-44cf-b1e5-68d0c4c1d031|fe684ba7-fe3f-4ad7-9bee-1acf34c11f0c",
-          "Barely..."
-        ],
-        [
           "solder_mask_bridge|137750000|124450000|5f9308e1-5f9a-42d7-a03c-d12dbbb8c98c|53569cf5-06aa-4310-85d5-ad5091419503",
           "Recommended footprint"
         ],
@@ -532,6 +524,9 @@
       "/AC-": [
         "HV"
       ],
+      "/AC_Input/AC+_in": [
+        "HV"
+      ],
       "/LED_Driver_AC-DC/AC_EMI+": [
         "HV"
       ],
@@ -766,14 +761,32 @@
           "label": "Note",
           "name": "Note",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

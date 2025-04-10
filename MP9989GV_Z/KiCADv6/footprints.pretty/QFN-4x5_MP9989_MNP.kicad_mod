@@ -370,4 +370,15 @@
 		(uuid "41a42ae6-b2f5-4879-b51c-75ff13909184")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/MP9989GV_Z/MP9989 (QFN4x5-8).step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

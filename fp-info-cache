@@ -1,4 +1,11 @@
-24798505009877189
+24801993880032259
+471001264142
+471001264142_0_75-1_25_
+
+
+0
+2
+2
 7447480102
 WE-TI_1014
 
@@ -6,6 +13,13 @@ WE-TI_1014
 0
 2
 2
+1212
+1212
+
+
+0
+2
+1
 750817251
 WE-OLLT_ER28_14_L31W31H25_PAD1.6
 
@@ -58330,13 +58344,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GAN039-650NTB
-GAN039-650NTB
-
-
-0
-12
-12
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -64693,6 +64700,13 @@ solder jumper open
 0
 3
 3
+KiCad
+26013102
+2601-310
+Connector
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

@@ -14,31 +14,49 @@
 		(comment 3 "Bryan, Tahje")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "2601-3102:2601-3102"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "2601-3102"
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "26013102"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wago.com/2601-3102"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 2-pole; Push-in CAGE CLAMP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,46 +65,80 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "16.58"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Wago"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "2601-3102"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Mouser Part Number" ""
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2601-3102_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -95,32 +147,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1.1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,9 +166,27 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "1.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -146,6 +194,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -340,45 +406,77 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 171.45 106.68) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57db5df7-dbd2-43e8-a6cb-5fb31a3d0abe")
+	(junction
+		(at 173.99 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "617ab8e1-5bcc-4112-82ed-f638cd1a38a1")
+	)
+	(junction
+		(at 173.99 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a819c7-06d1-4b59-b3bb-696c01698e49")
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 148.59 104.14)
+			(xy 148.59 101.6) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d84392f7-0bd0-4ef1-83ef-89e1fed01d2e")
+		(uuid "0f7d7584-2352-4b4f-b369-3b0399c63bc2")
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 148.59 99.06)
+			(xy 173.99 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1a2225-74ab-4bbe-8e02-0d9d88b5f832")
+		(uuid "2bef99a8-c238-4490-bc06-65f104b8a91b")
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 148.59 101.6)
+			(xy 173.99 104.14) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fae7b8d6-f222-448a-8529-753f827fcd64")
+		(uuid "52624db6-7812-4987-8ace-82f63a92c25f")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978248c4-1d5d-4d7f-921c-f9b59938243f")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f9980-917f-41d4-8ff8-656c9ae6b993")
+	)
+	(wire
+		(pts
+			(xy 173.99 101.6) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd56d219-11a0-46bb-b004-00af2127b9bf")
 	)
 	(hierarchical_label "LED_B"
 		(shape input)
@@ -404,7 +502,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 171.45 102.87 270)
+		(at 177.8 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -412,7 +510,7 @@
 		(dnp yes)
 		(uuid "7a4efdf7-35a5-4236-9d6e-608ab48d2c95")
 		(property "Reference" "D14"
-			(at 173.99 100.0124 90)
+			(at 180.34 100.0124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +519,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 173.99 102.5524 90)
+			(at 180.34 102.5524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 102.87 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +537,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bridgelux.com/sites/default/files/resource_media/DS407%20Gen%208%20V6%20HD%20Array%20Data%20Sheet%2020210520%20Rev%20A.pdf"
-			(at 171.45 102.87 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +546,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 102.87 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +555,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 102.87 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +564,7 @@
 			)
 		)
 		(property "Part Number" "976-BXRH-40H1000-B-83-ND"
-			(at 171.45 102.87 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,35 +588,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 101.6 0)
+		(lib_id "2601-3102:2601-3102")
+		(at 148.59 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b567abd-a4ca-4bf7-b1cc-4fc9df9c2f09")
+		(uuid "cd19c07b-d61b-440e-ac4d-64f7ce8b104a")
 		(property "Reference" "J6"
-			(at 156.21 101.5999 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 156.21 104.1399 0)
+		(property "Value" "2601-3102"
+			(at 161.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
-			(at 153.67 101.6 0)
+		(property "Footprint" "KiCad:26013102"
+			(at 170.18 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2601-3102"
+			(at 170.18 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; lever; 1.5 mm; Pin spacing 3.5 mm; 2-pole; Push-in CAGE CLAMP"
+			(at 148.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,17 +642,38 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 153.67 101.6 0)
+		(property "Height" "16.58"
+			(at 170.18 496.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 101.6 0)
+		(property "Manufacturer_Name" "Wago"
+			(at 170.18 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2601-3102"
+			(at 170.18 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2946-2601-3102-ND"
+			(at 148.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,10 +682,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fdebbbb-4f39-419c-b43e-1e55ac8430ad")
+			(uuid "7332d86a-288c-47ea-8075-e050fbdf1aef")
+		)
+		(pin "3"
+			(uuid "2f113bd4-11ef-4b78-8696-97954e8a91a8")
+		)
+		(pin "4"
+			(uuid "1072b316-fa9a-4754-8178-810df4000f30")
 		)
 		(pin "2"
-			(uuid "ea4e5686-b2b1-4f56-96c0-b3c9c07f2bfa")
+			(uuid "7e1e703c-f310-4ffd-b93c-24764e30fbb2")
 		)
 		(instances
 			(project ""

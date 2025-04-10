@@ -1,0 +1,9 @@
+Manufacturer=Wago
+PartNumber=2601-3102
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=4.1
+Released=2023-08-21 05:56:22
+Downloaded=2025-04-10 16:50:19
+3D=Y
