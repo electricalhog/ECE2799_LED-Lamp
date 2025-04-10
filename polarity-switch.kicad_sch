@@ -1958,7 +1958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/1N4148WT.pdf"
 			(at 189.23 101.6 0)
 			(effects
 				(font
@@ -1994,12 +1994,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1N4148WTDICT-ND"
 			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2076,6 +2077,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2153,6 +2155,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2206,7 +2209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX585_SER.pdf"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -2224,12 +2227,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1727-6235-1-ND"
 			(at 177.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2309,6 +2313,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2428,7 +2433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdmq8205a-d.pdf"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -2566,12 +2571,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "FDMQ8205AOSCT-ND"
 			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "16"
@@ -2692,6 +2698,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2746,7 +2753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX585_SER.pdf"
 			(at 127 107.95 0)
 			(effects
 				(font
@@ -2764,12 +2771,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1727-6235-1-ND"
 			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2824,7 +2832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX585_SER.pdf"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -2842,12 +2850,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1727-6235-1-ND"
 			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2926,6 +2935,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2979,7 +2989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZX585_SER.pdf"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -2997,12 +3007,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1727-6235-1-ND"
 			(at 177.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3079,6 +3090,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3221,6 +3233,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3256,7 +3269,7 @@
 				)
 			)
 		)
-		(property "Value" "140356145400"
+		(property "Value" "ISOM8118DFHR"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -3274,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/media/o759429v6886%20Seriesdatasheet_WL-OCPT_SOP-4_SERIES_356_V2%20%28rev1%29.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/isom8111.pdf?ts=1741587314586&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FISOM8111%253FkeyMatch%253DISOM8111%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT"
 			(at 93.98 104.14 0)
 			(effects
 				(font
@@ -3293,12 +3306,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "296-ISOM8118DFHRCT-ND"
 			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3340,7 +3354,7 @@
 				)
 			)
 		)
-		(property "Value" "140356145400"
+		(property "Value" "ISOM8118DFHR"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -3358,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/media/o759429v6886%20Seriesdatasheet_WL-OCPT_SOP-4_SERIES_356_V2%20%28rev1%29.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/isom8111.pdf?ts=1741587314586&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FISOM8111%253FkeyMatch%253DISOM8111%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -3377,12 +3391,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "296-ISOM8118DFHRCT-ND"
 			(at 210.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3466,6 +3481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3518,7 +3534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/1N4148WT.pdf"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -3554,12 +3570,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "1N4148WTDICT-ND"
 			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

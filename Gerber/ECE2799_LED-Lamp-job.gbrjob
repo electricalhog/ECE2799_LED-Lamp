@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "9.0.0-9.0.0-2~ubuntu24.04.1"
     },
-    "CreationDate": "2025-04-09T05:26:43-04:00"
+    "CreationDate": "2025-04-10T08:36:32-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ECE2799_LED-Lamp",
       "GUID": "45434532-3739-4395-9f4c-45442d4c616d",
-      "Revision": "rev?"
+      "Revision": "0"
     },
     "Size": {
-      "X": 119.05,
+      "X": 139.05,
       "Y": 71.05
     },
     "LayerNumber": 2,

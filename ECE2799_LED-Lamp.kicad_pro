@@ -60,80 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|175323600|85255501|ffd9242e-5580-42fe-b851-5b50de7f78c0|5ffec843-9f28-47db-8547-b94c8ae98e1a",
-          ""
+          "courtyards_overlap|190275000|108227305|92f06e53-051e-4212-bbf1-e5b41b6119d2|e938d436-be95-416c-867f-5cf14c93b0b4",
+          "Barely..."
         ],
         [
-          "clearance|175323600|88405499|a6736ff0-cb38-444f-a530-0e1cd2387754|85b9d9e3-6741-41a4-be51-1db6f5d8e463",
-          ""
+          "courtyards_overlap|190299145|90525000|5655de54-575b-44cf-b1e5-68d0c4c1d031|fe684ba7-fe3f-4ad7-9bee-1acf34c11f0c",
+          "Barely..."
         ],
         [
-          "clearance|176136400|88744499|2fa8fdd9-9bad-44de-90b8-1f6e981f23c9|85b9d9e3-6741-41a4-be51-1db6f5d8e463",
-          ""
+          "solder_mask_bridge|137750000|124450000|5f9308e1-5f9a-42d7-a03c-d12dbbb8c98c|53569cf5-06aa-4310-85d5-ad5091419503",
+          "Recommended footprint"
         ],
         [
-          "clearance|176593600|85255501|f461be5b-33ec-450d-b41d-46822b2b2ba8|5ffec843-9f28-47db-8547-b94c8ae98e1a",
-          ""
-        ],
-        [
-          "clearance|177863600|85255501|958a6a13-885e-4110-a4cc-c2e03b4abf82|5ffec843-9f28-47db-8547-b94c8ae98e1a",
-          ""
-        ],
-        [
-          "clearance|179133600|85594501|78a33b51-9b06-4485-b391-b8aeba02823d|5ffec843-9f28-47db-8547-b94c8ae98e1a",
-          ""
-        ],
-        [
-          "courtyards_overlap|190275000|108227305|6255d530-4a1b-4283-93ee-9549a269d0a0|77083d3b-9174-4648-a0a9-e1b4b766a987",
-          "Barely (see other side)"
-        ],
-        [
-          "courtyards_overlap|190299145|90525000|03af1202-8a23-463a-9238-5fae713e7ac5|6fdf1f3b-e760-470c-89e5-ee02c19c528c",
-          "Barely (theres a corner radius on the bottom of the cap)"
-        ],
-        [
-          "courtyards_overlap|196225000|104275000|3132ecb1-0bf3-424e-beb5-f5ae798b85f6|c8a78419-403b-4f03-83d2-2482ae457be8",
-          ""
-        ],
-        [
-          "courtyards_overlap|196475000|95705000|76b09dca-4869-4f13-aff8-c87627bbaadb|c8a78419-403b-4f03-83d2-2482ae457be8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|137750000|124450000|ca3fbc8f-7960-435f-b16b-d5f100048c76|283c0a53-20fa-4540-9b61-a65314a6e4a3",
-          ""
-        ],
-        [
-          "solder_mask_bridge|137750000|127900000|7f4f1968-c72d-424d-8b2a-663dad5a9518|9497c63a-93f5-44d7-a0ca-ed84b4ecc842",
-          ""
-        ],
-        [
-          "solder_mask_bridge|175323600|85255501|5ffec843-9f28-47db-8547-b94c8ae98e1a|ffd9242e-5580-42fe-b851-5b50de7f78c0",
-          ""
-        ],
-        [
-          "solder_mask_bridge|175323600|88405499|85b9d9e3-6741-41a4-be51-1db6f5d8e463|a6736ff0-cb38-444f-a530-0e1cd2387754",
-          ""
-        ],
-        [
-          "solder_mask_bridge|176136400|88744499|85b9d9e3-6741-41a4-be51-1db6f5d8e463|2fa8fdd9-9bad-44de-90b8-1f6e981f23c9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|176593600|85255501|5ffec843-9f28-47db-8547-b94c8ae98e1a|f461be5b-33ec-450d-b41d-46822b2b2ba8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|177863600|85255501|5ffec843-9f28-47db-8547-b94c8ae98e1a|958a6a13-885e-4110-a4cc-c2e03b4abf82",
-          ""
-        ],
-        [
-          "solder_mask_bridge|179133600|85594501|5ffec843-9f28-47db-8547-b94c8ae98e1a|78a33b51-9b06-4485-b391-b8aeba02823d",
-          ""
-        ],
-        [
-          "starved_thermal|148437500|123500000|1d9d52b2-f6cc-4622-b50c-e942d49acc77|cf8a6eb6-d45f-45ce-a19d-7dd718a4ab75|B.Cu",
-          "Its connected"
+          "solder_mask_bridge|137750000|127900000|ff522398-d01c-421b-a109-34b6ea9cd154|078ce2c2-4ad1-4e6d-8b8b-c8c7f8466459",
+          "Recommended footprint"
         ]
       ],
       "meta": {
@@ -165,7 +105,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -216,7 +156,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -649,9 +589,9 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         },
         {
           "group_by": false,
@@ -661,27 +601,39 @@
         },
         {
           "group_by": true,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -735,12 +687,84 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
           "show": false
         }
       ],
@@ -748,8 +772,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

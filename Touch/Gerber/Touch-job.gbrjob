@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "9.0.0-9.0.0-2~ubuntu24.04.1"
     },
-    "CreationDate": "2025-04-09T05:43:52-04:00"
+    "CreationDate": "2025-04-10T08:36:23-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Touch",
       "GUID": "546f7563-682e-46b6-9963-61645f706362",
-      "Revision": "rev?"
+      "Revision": "0"
     },
     "Size": {
-      "X": 119.05,
+      "X": 139.05,
       "Y": 24.05
     },
     "LayerNumber": 2,

@@ -323,7 +323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_2562.pdf"
 			(at 151.8162 101.6376 0)
 			(effects
 				(font
@@ -333,6 +333,15 @@
 			)
 		)
 		(property "Description" "C6 plug, 2,5A max"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "486-4031-ND"
 			(at 153.67 101.6 0)
 			(effects
 				(font

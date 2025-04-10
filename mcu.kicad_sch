@@ -5289,7 +5289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/29110/ntclp450e3.pdf"
 			(at 220.98 134.62 0)
 			(effects
 				(font
@@ -5299,6 +5299,15 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 220.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "56-NTCLP450E3104H-ND"
 			(at 220.98 135.89 0)
 			(effects
 				(font
@@ -5384,6 +5393,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5741,7 +5751,7 @@
 		(at 93.98 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5865,6 +5875,15 @@
 			)
 		)
 		(property "Description" "Microchip SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1265-AT25FF081A-SSHN-B-ND"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -6115,7 +6134,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6235,12 +6254,13 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "2648-SC0914(13)CT-ND"
 			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "55"
@@ -6428,7 +6448,7 @@
 		(at 116.84 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6551,6 +6571,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6698,6 +6719,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6842,6 +6864,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Note" "Place 1uF close to RP2040 pin 44"
@@ -7060,6 +7083,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7139,6 +7163,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7551,6 +7576,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7630,6 +7656,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7906,6 +7933,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "732-830070868CT-ND"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "702e68ad-26d8-4ffd-b8b5-c5cadcf22229")
 		)
@@ -8033,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_2616s.pdf"
 			(at 91.44 63.5 0)
 			(effects
 				(font
@@ -8043,6 +8079,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "P19889CT-ND"
 			(at 91.44 63.5 0)
 			(effects
 				(font
@@ -8482,7 +8527,7 @@
 		(at 116.84 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
