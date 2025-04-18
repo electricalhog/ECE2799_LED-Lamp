@@ -1,0 +1,72 @@
+*$
+* ISOM8110
+*****************************************************************************
+* (C) Copyright 2023 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: ISOM8110
+* Date: 24AUG2023
+* Model Type: TRANSIENT
+* Simulator: PSPICE 
+* Simulator Version: 17.4.0 (Nov. 2018)
+* EVM Order Number: N/A
+* EVM User's Guide: SLAU899
+* Datasheet: SLLSFS9   
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*$
+.SUBCKT OPTO_ISOLATOR AN CAT COL EM
+.PARAM VCEMIN = 0.2
+.PARAM FC_LOW = 570E3
+.PARAM PI = 3.14159265359
+
+* Diode input with current measurement
+VS1 AN INT_A 0
+SD1 INT_A CAT INT_A CAT IN_DIODE
+
+* Spice needs to reference the ground for all nodes, so we must connect
+* the output ground to the input ground, but a large resistor is between
+RGND CAT EM 100G
+
+* Send the input current through our bandwidth filter
+FI_IN 0 FILT1 VS1 1.2 ; CTR = 1.2
+RF1 FILT1 0 {FC_LOW*2*PI*1E-6}
+LF1 FILT1 MN1 1u
+VM1 MN1 0  0
+
+* Convert filtered current to voltage
+HIIN I_IN 0 VM1 1
+
+EOUT_INT OUT_IDEAL 0 VALUE = {IF(V(I_IN)>499u,1,0)}
+
+* Calculation is split for readability
+* X1 is the output current in linear mode (COL current ~= in current)
+* X2 is the output current in saturation mode (out voltage ~= VCEMIN)
+ECALC1 X1 0 VALUE = {V(OUT_IDEAL)*V(I_IN)}
+ECALC2 X2 0 VALUE = {V(OUT_IDEAL)*abs(V(COL,EM)-VCEMIN)}
+GOUT COL EM VALUE = {IF(V(COL,EM)>VCEMIN,V(X1),V(X2))}
+
+.MODEL IN_DIODE VSWITCH VON = {1.49} VOFF = {1.35} RON = 1 ROFF = 5E6
+.ENDS

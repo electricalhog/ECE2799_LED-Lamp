@@ -3460,6 +3460,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PWM frequency = 1907 Hz"
+		(exclude_from_sim no)
+		(at 195.834 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76fef466-6b59-4c3c-a0ba-664f68cbeb97")
+	)
 	(junction
 		(at 91.44 109.22)
 		(diameter 0)
